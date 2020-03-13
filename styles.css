@@ -6,10 +6,21 @@ html, body {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   overflow: hidden;
   background-color: white;
+}
+
+ul a{
+  margin: 10px;
+  float: left;
+  text-decoration: none;
+  fill: black;
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
 ul a:hover{
@@ -17,32 +28,6 @@ ul a:hover{
   text-decoration-style: solid;
   text-decoration-color: black;
 }
-
-li a {
-  display: block;
-  color: black;
-  background-color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-a {
-  font-style: normal;
-  font-weight: normal;
-  font-family: sans-serif;
-  font-size: 18px;
-}
-
-a.style {
-  fill: auto;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-color: black;
-}
-
 
 h1{
   font-style: normal;
