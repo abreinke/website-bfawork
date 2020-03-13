@@ -14,7 +14,7 @@ ul {
 
 ul a{
   margin: 10px;
-  float: left;
+  float: center;
   text-decoration: none;
   fill: black;
   font-style: normal;
@@ -85,7 +85,7 @@ div.code-work a:hover{
 
 div.index-files{
   width: 350px;
-  height: 300px;
+  height: auto;
   float: left;
   margin: 10px;
   background-color: white;
