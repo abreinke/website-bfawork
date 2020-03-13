@@ -9,21 +9,18 @@ div.gallery {
   border: 10px solid black;
   float: left;
   width: 330px;
-}
-
-a{
-  text-decoration-line: none;
+  min-width: inherit;
 }
 
 div.gallery img{
-  width: 330px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 
 div.desc{
   padding: 15px;
   text-align: center;
-  }
+}
 
 
 ul {
@@ -84,47 +81,44 @@ h2{
   font-size: 25px;
 }
 
-p {
+div.digital-work{
+  width: 500px;
+  height: auto;
+  float: left;
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.code-work{
+  width: 400px;
+  height: auto;
+  float: left;
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.code-work a{
+  text-decoration: none;
+  text-align: center;
+  fill: black;
   font-style: normal;
   font-weight: normal;
   font-family: sans-serif;
   font-size: 20px;
 }
 
-div.digital-work{
-  width: 500px;
-  height: auto;
-  float: left;
-  margin: 10px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-div.index-files a:hover{
+div.code-work a:hover{
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-color: black;
-}
-
-div{
-  font-style: normal;
-  font-weight: normal;
-  font-family: sans-serif;
-  font-size: 25px;
-  }
-
-div.container {
-  text-align: below;
-  padding: 10px 20px;
-}
-
-div.code-work{
-  width: 600px;
-  height: 300px;
-  float: left;
-  margin: 10px;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.index-files{
@@ -133,7 +127,23 @@ div.index-files{
   float: left;
   margin: 10px;
   background-color: white;
+  text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.index-files a{
+  text-decoration: none;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+div.index-files a:hover{
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: black;
 }
 
 div.video-files{
@@ -141,6 +151,8 @@ div.video-files{
   height: 480px;
   float: left;
   margin: 10px;
+  font-family: sans-serif;
+  font-size: 25px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
