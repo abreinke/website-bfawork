@@ -6,24 +6,29 @@ html, body {
 
 ul {
   list-style-type: none;
-  margin: 10px;
+  margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: white;
 }
 
-ul a{
-  margin: 10px;
-  float: center;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  fill: black;
   font-style: normal;
   font-weight: normal;
   font-family: sans-serif;
   font-size: 20px;
 }
 
-ul a:hover{
+li a:hover{
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-color: black;
@@ -41,6 +46,14 @@ h2{
   font-weight: normal;
   font-family: sans-serif;
   font-size: 25px;
+}
+
+p{
+  fill: black;
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
 div.digital-work{
@@ -110,11 +123,12 @@ div.index-files a:hover{
 
 div.video-files{
   width: 640px;
-  height: 480px;
+  height: auto;
   float: left;
   margin: 10px;
   font-family: sans-serif;
   font-size: 25px;
+  text-align: center;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
