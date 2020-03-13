@@ -4,25 +4,6 @@ html, body {
   background-color: white;
 }
 
-div.gallery {
-  margin: 5px;
-  border: 10px solid black;
-  float: left;
-  width: 330px;
-  min-width: inherit;
-}
-
-div.gallery img{
-  width: 100%;
-  height: auto;
-}
-
-div.desc{
-  padding: 15px;
-  text-align: center;
-}
-
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,10 +16,6 @@ ul a:hover{
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-color: black;
-}
-
-li {
-  float: left;
 }
 
 li a {
